@@ -1,0 +1,115 @@
+{
+  "siteSettings": {
+    "maintenanceMode": false,
+    "maintenanceMessage": "Sitemiz şu anda bakımdadır. Çok yakında yeni dublajlar ve sürprizlerle geri döneceğiz! ✨"
+  },
+  "profile": {
+    "name": "Miray",
+    "handle": "@miraydubbing",
+    "showVerifiedBadge": true,
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400",
+    "bio": "Merhaba! Ben Miray! 🎙️✨\n\nKendimce yaptığım dublajlarla sizlerle birlikte eğleniyor, karakterlere kendi yorumumu katmayı seviyorum! 💜\n\nAynı zamanda **Eternal Production** bünyesinde reklam dublajları, **Yasha Records** bünyesinde ise tam bölüm anime dublajları yapıyorum. 🎬🎧\n\nSeslendirmelerimi ve projelerimi keşfetmek istersen aşağıdaki bağlantılara göz atabilirsin! Umarım içeriklerimi sever ve benimle birlikte bu eğlenceli yolculuğun bir parçası olursun. 💫\n\n🔗 **Bağlantılar aşağıda!**"
+  },
+  "links": [
+    {
+      "id": "youtube",
+      "title": "YouTube Kanalım",
+      "subtitle": "Anime dublajları ve eğlenceli videolar",
+      "url": "https://youtube.com",
+      "icon": "youtube",
+      "badge": "En Popüler",
+      "color": "#FF0000"
+    },
+    {
+      "id": "instagram",
+      "title": "Instagram",
+      "subtitle": "Günlük kesitler ve seslendirme duyuruları",
+      "url": "https://instagram.com",
+      "icon": "instagram",
+      "badge": "",
+      "color": "#E4405F"
+    },
+    {
+      "id": "tiktok",
+      "title": "TikTok",
+      "subtitle": "Kısa seslendirmeler ve reels",
+      "url": "https://tiktok.com",
+      "icon": "tiktok",
+      "badge": "Trend",
+      "color": "#000000"
+    },
+    {
+      "id": "yasha",
+      "title": "Yasha Records",
+      "subtitle": "Tam Bölüm Anime Dublaj Projeleri",
+      "url": "https://yasharecords.com",
+      "icon": "mic",
+      "badge": "Anime Partner",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "discord",
+      "title": "Discord Topluluğumuz",
+      "subtitle": "Toplulukla sohbet ve etkinlikler",
+      "url": "https://discord.gg",
+      "icon": "discord",
+      "badge": "Topluluk",
+      "color": "#5865F2"
+    }
+  ],
+  "dubbingProjects": [
+    {
+      "id": 1,
+      "title": "Jujutsu Kaisen - Nobara Kugisaki Dublajı",
+      "category": "Yasha Records - Anime",
+      "role": "Nobara Kugisaki",
+      "date": "2024",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&q=80&w=600",
+      "description": "Yasha Records bünyesinde seslendirdiğim Jujutsu Kaisen anime serisinden heyecan dolu bir sahne!",
+      "tags": ["Anime", "Yasha Records", "Aksiyon"]
+    },
+    {
+      "id": 2,
+      "title": "Demon Slayer - Nezuko Kamado Özel Sahne",
+      "category": "Yasha Records - Anime",
+      "role": "Nezuko Kamado",
+      "date": "2024",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=600",
+      "description": "Demon Slayer serisinin duygusal ve karakter odaklı sahnelerinden yaptığım Türkçe dublaj çalışması.",
+      "tags": ["Anime", "Duygusal", "Yasha Records"]
+    },
+    {
+      "id": 3,
+      "title": "Eternal Production - Marka Tanıtım Reklamı",
+      "category": "Eternal Production - Reklam",
+      "role": "Dış Ses / Reklam Yüzü",
+      "date": "2024",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=600",
+      "description": "Eternal Production çatısı altında stüdyo ortamında seslendirdiğim profesyonel marka reklam filmi.",
+      "tags": ["Reklam", "Eternal Production", "Kurumsal"]
+    },
+    {
+      "id": 4,
+      "title": "Cyberpunk 2077 - V Character Re-dub",
+      "category": "Oyun Dublajı",
+      "role": "Female V",
+      "date": "2023",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=600",
+      "description": "Cyberpunk 2077 evreninde geçen ikonik bir diyalog sahnesinin fan dublaj denemesi.",
+      "tags": ["Oyun", "Fan Dublaj", "Sci-Fi"]
+    }
+  ],
+  "footer": {
+    "copyright": "© 2025 Miray. Tüm hakları saklıdır.",
+    "eternalProduction": {
+      "title": "Eternal Production",
+      "tagline": "Profesyonel Seslendirme & Prodüksiyon Hizmetleri",
+      "url": "https://eternalproduction.com",
+      "logoText": "ETERNAL PRODUCTION"
+    }
+  }
+}

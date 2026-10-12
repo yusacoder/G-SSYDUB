@@ -1,1 +1,122 @@
-duzenle
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miray - Dublaj & Portfolyo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bakım Modu Ekranı -->
+  <div id="maintenance-screen" class="maintenance-screen hidden">
+    <div class="maintenance-card">
+      <div class="maintenance-icon">
+        <i class="fa-solid fa-wrench"></i>
+      </div>
+      <h2>Bakımdayız</h2>
+      <p id="maintenance-msg">Sitemiz şu anda bakımdadır. Çok yakında yeni dublajlar ve sürprizlerle geri döneceğiz! ✨</p>
+      <div class="maintenance-footer">
+        <span class="purple-badge">Eternal Production</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ana İçerik Konteyneri -->
+  <div id="app-container" class="app-container">
+
+    <!-- Üst Başlık & Profil Alanı -->
+    <header class="profile-header">
+      <div class="avatar-wrapper">
+        <img id="profile-avatar" src="" alt="Miray Avatar" class="profile-avatar">
+        <div class="avatar-glow"></div>
+      </div>
+
+      <div class="profile-info">
+        <div class="name-badge-wrapper">
+          <h1 id="profile-name" class="profile-name">Miray</h1>
+          <span id="verified-badge" class="verified-badge hidden" title="Onaylanmış Seslendirme Sanatçısı">
+            <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.79-3.99-4-3.99-.495 0-.965.084-1.4.238C14.55 2.475 13.18 1.6 11.6 1.6c-1.58 0-2.95.875-3.6 2.148-.435-.154-.905-.238-1.4-.238-2.21 0-3.99 1.78-3.99 4 0 .495.084.965.238 1.4C1.575 9.55.7 10.92.7 12.5c0 1.58.875 2.95 2.148 3.6-.154.435-.238.905-.238 1.4 0 2.21 1.79 3.99 4 3.99.495 0 .965-.084 1.4-.238 1.05 1.273 2.42 2.148 4 2.148 1.58 0 2.95-.875 3.6-2.148.435.154.905.238 1.4.238 2.21 0 3.99-1.78 3.99-4 0-.495-.084-.965-.238-1.4 1.273-1.05 2.148-2.42 2.148-4zM10.09 16.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z"/>
+            </svg>
+          </span>
+        </div>
+        <p id="profile-handle" class="profile-handle">@miraydubbing</p>
+
+        <!-- Tanıtım & Açıklama -->
+        <div id="profile-bio" class="profile-bio">
+          <!-- Bio JS ile data.json'dan yüklenecek -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Sekme Navigasyonu -->
+    <nav class="nav-tabs">
+      <button id="tab-links-btn" class="tab-btn active" onclick="switchTab('links')">
+        <i class="fa-solid fa-link"></i> Bağlantılar
+      </button>
+      <button id="tab-dubbings-btn" class="tab-btn" onclick="switchTab('dubbings')">
+        <i class="fa-solid fa-microphone-lines"></i> Dublajlar & Projeler
+      </button>
+    </nav>
+
+    <!-- Sekme 1: Bağlantılar -->
+    <main id="tab-links" class="tab-content active">
+      <div id="links-container" class="links-list">
+        <!-- Bağlantı kartları JS ile dinamik gelecek -->
+      </div>
+    </main>
+
+    <!-- Sekme 2: Dublajlar -->
+    <main id="tab-dubbings" class="tab-content hidden">
+      <div id="dubbings-container" class="dubbings-grid">
+        <!-- Dublaj kartları JS ile dinamik gelecek -->
+      </div>
+    </main>
+
+    <!-- Video Modal Popup -->
+    <div id="video-modal" class="video-modal hidden" onclick="closeModal(event)">
+      <div class="modal-content">
+        <button class="modal-close" onclick="closeModalDirect()">&times;</button>
+        <div class="iframe-container">
+          <iframe id="modal-iframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-info">
+          <h3 id="modal-title"></h3>
+          <p id="modal-desc"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer / Alt Bilgi -->
+    <footer class="site-footer">
+      <div id="eternal-production-card" class="eternal-card">
+        <div class="eternal-card-content">
+          <div class="eternal-brand">
+            <i class="fa-solid fa-sparkles eternal-sparkle"></i>
+            <span class="eternal-badge">Resmi İş Birlikleri & Prodüksiyon</span>
+          </div>
+          <h3 id="eternal-title" class="eternal-title">Eternal Production</h3>
+          <p id="eternal-tagline" class="eternal-tagline">Profesyonel Seslendirme & Prodüksiyon Hizmetleri</p>
+          <a id="eternal-link" href="https://eternalproduction.com" target="_blank" class="eternal-btn">
+            <span>Eternal Production'ı Keşfet</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footer-copyright">© 2025 Miray. Tüm hakları saklıdır.</p>
+        <p class="footer-subtext">Designed with 💜 white & purple aesthetics</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
