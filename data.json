@@ -1,7 +1,7 @@
 
 {
   "siteSettings": {
-    "maintenanceMode": false,
+    "maintenanceMode": true,
     "maintenanceMessage": "Sitemiz şu anda bakımdadır. Çok yakında yeni dublajlar ve sürprizlerle geri döneceğiz! ✨"
   },
   "profile": {
